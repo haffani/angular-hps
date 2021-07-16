@@ -14,11 +14,7 @@
     "lib": [
       "es2018",
       "dom"
-    ],
-    "paths": {
-      "@pwc/acquirer": ["packages/acquirer/src/index.ts"],
-      "@pwc/issuer": ["packages/issuer/src/index.ts"],
-  }
+    ]
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
@@ -26,8 +22,5 @@
   },
   "include": [
     "src/**/*",
-    ".",
-    "../node_modules/**/*"
 ],
-
 }
